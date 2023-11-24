@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form">
+            <h1 id="title">Sign Up</h1>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <box-icon type='solid' name='user'></box-icon>
+                        <input type="text" placeholder="Name">
+
+                    </div>
+
+                    <div class="input-field">
+                        <box-icon type='solid' name='envelope'></box-icon>
+                        <input type="email" placeholder="Email">
+
+                    </div>
+
+                    <div class="input-field">
+                        <box-icon type='solid' name='lock-alt'></box-icon>
+                        <input type="Password" placeholder="Password">
+
+                    </div>
+
+                    <p>Lost Password <a href="#">Click Here!</a></p>
+
+                </div>
+
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign Up</button>
+                    <button type="button" id="signinBtn" class="disable">Sign In</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
